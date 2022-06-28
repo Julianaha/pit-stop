@@ -1,13 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>PitStop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PitStop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+  <nav class="navbar navbar-expand-lg p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-font" href="#">PitStop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link nav-font" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link nav-font" href="#">Informações</a>
+          <a class="nav-link nav-font" href="#">Gráficos</a>
+          <a class="nav-link nav-font" href="#">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video muted looping autoplay="true" class="video-principal d-block w-100" height="400">
+            <source src="./img/video-formula1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <section class="text-center p-2 m-4">
+      <h1 class="title-font">Fórmula 1</h1>
+      <p class="text-center text-font">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
+        euismod magna.Quem num gosta di mé, boa gentis num é.
+        Paisis, filhis, espiritis santis.Manduma pindureta quium dia nois paga.Posuere libero varius. Nullam a nisl ut
+        ante blandit hendrerit. Aenean sit amet nisi.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo
+        pose. Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
+        euismod magna.Quem num gosta di mé, boa gentis num é.
+        Paisis, filhis, espiritis santis.Manduma pindureta quium dia nois paga.Posuere libero varius. Nullam a nisl ut
+        ante blandit hendrerit. Aenean sit amet nisi.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo
+        pose.
+      </p>
+    </section>
+    <div class="p-2 m-4">
+      <h1 class="nav-font bg-subtitle p-3">Informações</h1>
+      <p class="text-center text-font">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
+        euismod magna.Quem num gosta di mé, boa gentis num é.Mussum Ipsum, cacilds vidis litro abertis. A ordem dos
+        tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.
+      </p>
+      <table class="table table-dark table-striped pt-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>Thornton</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Larry</td>
+            <td>Thornton</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Larry</td>
+            <td>Thornton</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="p-2 m-4">
+      <h1 class="nav-font bg-subtitle p-3">Gráficos</h1>
+      <p>Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
+        euismod magna.Quem num gosta di mé, boa gentis num é.Mussum Ipsum, cacilds vidis litro abertis. A ordem dos
+        tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.
+      </p>
+      <div class="row container text-center">
+        <div class="col-md-6">
+          <img class="img-grid" src="./img/Pilotos que apareceram entre os top 10 nas duas ultimas décadas.png">
+        </div>
+        <div class="col-md-6">
+          <img class="img-grid" src="./img/Pilotos que apareceram entre os top 10 nas duas ultimas décadas.png">
+        </div>
+        <div class="col-md-6">
+          <img class="img-grid" src="./img/Pilotos que apareceram entre os top 10 nas duas ultimas décadas.png">
+        </div>
+        <div class="col-md-6">
+          <img class="img-grid" src="./img/Pilotos que apareceram entre os top 10 nas duas ultimas décadas.png">
+        </div>
+        <div class="col-md-6">
+          <img class="img-grid" src="./img/Pilotos que apareceram entre os top 10 nas duas ultimas décadas.png">
+        </div>
+        <div class="col-md-6">
+          <img class="img-grid" src="./img/Pilotos que apareceram entre os top 10 nas duas ultimas décadas.png">
+        </div>
+      </div>
+    </div>
+    <div class="p-2 m-4">
+      <h1 class="nav-font bg-subtitle p-3">Contato</h1>
+      <p>Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
+        euismod magna.Quem num gosta di mé, boa gentis num é.Mussum Ipsum, cacilds vidis litro abertis. A ordem dos
+        tratores não altera o pão
+        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.
+      </p>
+      <div class="row container text-center">
+        <div class="col-md-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/flavio.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/flavio.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/flavio.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/flavio.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/flavio.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
