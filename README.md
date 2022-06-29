@@ -4,6 +4,10 @@
 
 Projeto de encerramento do módulo 3: PitStop
 
+<div align='center'>
+    <img src='pit-stop/tree/Flavio/ex_readme.png' width='500px'>
+ </div> 
+ 
 ### Sobre 🔎 
 
 No projeto que encerra este módulo, tivemos que escolher um tema e como proposta criar perguntas para extrair dados de um banco relacional.
