@@ -1,4 +1,5 @@
--- Questão 3: Quais os 5 pilotos com maior índice de qualificação ? -- 
+/* Questão 3: Quais os 5 pilotos com maior índice de qualificação ? */
+
 SELECT
 	qualifying.qualifyId,
 	qualifying.position,
