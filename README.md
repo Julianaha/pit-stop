@@ -5,7 +5,7 @@
 Projeto de encerramento do módulo 3: PitStop
 
 <div align='center'>
-    <img src='pit-stop/ex_readme.png' width='500px'>
+    <img src='pit-stop/blob/Flavio/ex_readme.png' width='500px'>
  </div> 
  
 ### Sobre 🔎 
