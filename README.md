@@ -1,38 +1,42 @@
 # Projeto de encerramento módulo 3 
 
-Lançamento de produto: F1 🍻
-Projeto de encerramento do módulo 3: 
-Sobre - Softwares & Ferramentas - Habilidades - Colaboradores
+## Banco de Dados Relacional
 
-Sobre 🔎
-Neste projeto fim de módulo nossa squad foi orientada a criar o produto e desenvolver o front end para apresentá-lo como um novo lançamento pela empresa " ". Contendo os seguinte requisitos:
+Projeto de encerramento do módulo 3: Sobre - Softwares & Ferramentas - Habilidades - Colaboradores
 
-Páginas; home, sobre, contato, cadastro, login e recuperação de senha.
-Framework Bootstrap utilizado na elaboração do projeto.
-Obter dados referente ao CEP utilizando no cadastro através da API.
-Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto.
-Softwares & Ferramentas utilizadas neste projeto 📚
- HTML5
- CSS3
- JavaScript
- Bootstrap
- jQuery
- DOM
- API
- Git
- Figma
- Google Drive
-Habilidades Adquiridas 📝
-Padrão MVC
-Uso de API
-Utilização do Bootstrap
-Condicionais (if,else/ternário)
-Estrutura try/catch
-Aplicação com Ajax
-Funções callbacks
-Responsividade
-Uso de tags semânticas
-Criação de interface no Figma
-Planejamento com metodologia ágil
-Colaboradores do Projeto 🤝
+### Sobre 🔎 
+
+No projeto que encerra este módulo, tivemos que escolher um tema e como proposta criar perguntas para extrair dados de um banco relacional.
+Decidimos escolher Fórmula 1 e explanar mais sobre esse esporte que, depois de quase esquecido, voltou com muita força, ganhando a admiração de um público mais jovem.
+
+### Contendo os seguinte requisitos:
+
+Página: Início; Informação; Gráfico; Contato.
+Obter e editar dados referente ao tema através do banco de dados fornecido. 
+Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto. 
+
+## Softwares & Ferramentas utilizadas neste projeto 📚 
+- MySQL
+- HTML5 
+- CSS3 
+- Bootstrap 
+- Git 
+- Figma 
+- Google Drive 
+- Trello
+
+## Habilidades Adquiridas 📝 
+- Criação de Query
+- Extração de informações relevantes para elaborar um dado estatístico 
+- Modelagem de Dados
+- Padrão MVC 
+- Utilização do Bootstrap 
+- Responsividade 
+- Sintaxe e Indentação de código
+- Criação de interface no Figma 
+- Criação de interface mobile no Canva
+- Planejamento com metodologia ágil 
+
+### Colaboradores do Projeto 🤝 
+
 Foto da Juliana no GitHub
