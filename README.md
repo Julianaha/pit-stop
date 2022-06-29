@@ -2,18 +2,13 @@
 
 ## Banco de Dados Relacional
 
-<<<<<<< HEAD
 Projeto de encerramento do módulo 3: PitStop
-=======
-Projeto de encerramento do módulo 3: Sobre - Softwares & Ferramentas - Habilidades - Colaboradores
->>>>>>> 5f8f044afab13318a3ad4fe899d36d7aaa89ceea
 
 ### Sobre 🔎 
 
 No projeto que encerra este módulo, tivemos que escolher um tema e como proposta criar perguntas para extrair dados de um banco relacional.
 Decidimos escolher Fórmula 1 e explanar mais sobre esse esporte que, depois de quase esquecido, voltou com muita força, ganhando a admiração de um público mais jovem.
 
-<<<<<<< HEAD
 A Fórmula 1 teve uma das melhores reestruturações de interesse esportivo já vistas!
 Uma série de pesquisas sobre o interesse em esportes, com as novas gerações como Millennials e Gen Z apontavam, em meados da década passada, que o interesse por esportes motorizados estava em queda. Eram vistas como competições longas e monótonas e indicavam que o esporte tendia ao esquecimento. 
 A gestão anterior, do Ecclestone e Max Mosley, teve todos os méritos de fazer a Fórmula 1 crescer e se tornar um esporte global nos anos 80/90, inclusive mais profissional. Mas uma das causas dessa queda foi a falta de investimento para cativar o público mais jovem.
@@ -33,8 +28,6 @@ Se você quer acompanhar a maior categoria do automobilismo, mas não está tão
 Aqui no site você conta alguns demonstrativos de dados para auxiliar na compreensão do universo de possibilidades.
 
 
-=======
->>>>>>> 5f8f044afab13318a3ad4fe899d36d7aaa89ceea
 ### Contendo os seguinte requisitos:
 
 Página: Início; Informação; Gráfico; Contato.
@@ -65,8 +58,4 @@ Utilizar repositório público no github, com todos os integrantes do grupo como
 
 ### Colaboradores do Projeto 🤝 
 
-<<<<<<< HEAD
 Foto da Juliana no GitHub
-=======
-Foto da Juliana no GitHub
->>>>>>> 5f8f044afab13318a3ad4fe899d36d7aaa89ceea
