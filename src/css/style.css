@@ -58,7 +58,15 @@
 
 }
 
-/* .img-grafico{
-    width: 70%;
-    height: 60%;
-} */
+.bg-grafico{
+    background-color: #f5f5f5;
+}
+
+.img-store{
+    width: 40%;
+    height: 20%;
+}
+
+.icon-perfil{
+    width: 30px;
+}
