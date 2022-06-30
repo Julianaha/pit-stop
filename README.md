@@ -1,8 +1,8 @@
 # Projeto de encerramento módulo 3 
 
-## Banco de Dados Relacional
+## Banco de Dados Relacional    ![armazenamento-de-banco-de-dados](https://user-images.githubusercontent.com/65184920/176726356-c82bef86-eb4e-42f5-8653-2a9a292d2363.png)
 
-Projeto de encerramento do módulo 3: PitStop
+[Sobre](#sobre-) - [Produto](#produto-pitstop-) - [GitHub Pages](#github-pages) - [Requisitos do Projeto](#-requisitos-do-projeto) - [Softwares & Ferramentas](#softwares--ferramentas-utilizadas-neste-projeto-) - [Habilidades](#habilidades-adquiridas-) - [Colaboradores](#colaboradores-do-projeto-)
 
 <div align='center'>
     <img src='https://github.com/Julianaha/pit-stop/blob/c3101b816e3d2c8e591c5c73a1784e75cf014d3f/ex_readme.png' width='500px'>
@@ -19,7 +19,7 @@ A gestão anterior, do Ecclestone e Max Mosley, teve todos os méritos de fazer 
 Isso tudo mudou com a Liberty, e algumas estratégias deram frutos na velocidade da internet, desde 2017, 62% dos novos fãs da F1 têm menos de 35 anos, o que fez a idade média cair dos 36 anos de 2016 para 32 anos em 2021. Graças a “Drive to Survive” um sucesso da Netflix, mas também ao game F1 e à F1 ProTV, que transmite a competição em streaming, cheia de efeitos, possibilidades de câmeras, áudios personalizados.
 Outros pontos de contato que ajudam nesse desenvolvimento é a relação com as marcas. Ter uma equipe competitiva como a Red Bull, trazer a Mercedes para o jogo e, agora em 2022, ver o renascimento competitivo da Ferrari, são movimentos que atraem a atenção do público.
 
-# Produto
+### Produto: PitStop 🏁
 
 Levando em consideração esse crescente mercado, apresentamos o PitStop!
 Trata-se de um fantasy game baseado em análises estatísticas onde seus palpites somam pontos. 
@@ -31,24 +31,28 @@ Você sabe quantos pontos vale a pole position na Fórmula 1? Entende bem o GRID
 Se você quer acompanhar a maior categoria do automobilismo, mas não está tão por dentro da Fórmula 1, não se preocupe. Nós vamos te ajudar!.
 Aqui no site você conta alguns demonstrativos de dados para auxiliar na compreensão do universo de possibilidades.
 
+### GitHub Pages:
 
-### Contendo os seguinte requisitos:
+O site está hospedado no github pages: [PitStop](https://julianaha.github.io/pit-stop/) 
 
-Página: Início; Informação; Gráfico; Contato.
-Obter e editar dados referente ao tema através do banco de dados fornecido. 
-Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto. 
 
-## Softwares & Ferramentas utilizadas neste projeto 📚 
-- MySQL
-- HTML5 
-- CSS3 
-- Bootstrap 
-- Git 
-- Figma 
-- Google Drive 
-- Trello
+### 📍 Requisitos do Projeto:
 
-## Habilidades Adquiridas 📝 
+- Página: Início; Informação; Gráfico; Contato.
+- Obter e editar dados referente ao tema através do banco de dados fornecido. 
+- Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto. 
+
+### Softwares & Ferramentas utilizadas neste projeto 📚 
+- [x] MySQL
+- [x] HTML5 
+- [x] CSS3 
+- [x] Bootstrap 
+- [x] Git 
+- [x] Figma 
+- [x] Google Drive 
+- [x] Trello
+
+### Habilidades Adquiridas 📝 
 - Criação de Query
 - Extração de informações relevantes para elaborar um dado estatístico 
 - Modelagem de Dados
