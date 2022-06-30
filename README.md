@@ -61,5 +61,48 @@ Utilizar repositório público no github, com todos os integrantes do grupo como
 - Planejamento com metodologia ágil 
 
 ### Colaboradores do Projeto 🤝 
-
-Foto da Juliana no GitHub
+  <table>
+    <tr align='center'>    
+        <td align="center">
+          <a href="https://github.com/Julianaha">
+            <img src='https://avatars.githubusercontent.com/u/65184920?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
+            <sub>
+              <b>Juliana Souza</b>
+            </sub>
+          </a>
+        </td>
+      <td align="center">
+          <a href="https://github.com/fchristovam">
+            <img src='https://avatars.githubusercontent.com/u/102329466?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
+            <sub>
+              <b>Flávio Christovam</b>
+            </sub>
+          </a>
+        </td>
+      <td align="center">
+          <a href="https://github.com/alicebranq">
+            <img src='https://avatars.githubusercontent.com/u/102565368?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
+            <sub>
+              <b>Alice Branquinho</b>
+            </sub>
+          </a>
+        </td>
+      <td align="center">
+          <a href="https://github.com/biateisi">
+            <img src='https://avatars.githubusercontent.com/u/100853996?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
+            <sub>
+              <b>Beatriz Teixeira</b>
+            </sub>
+          </a>
+        </td>
+      <td align="center">
+          <a href="https://github.com/rnegrelly">
+            <img src='https://avatars.githubusercontent.com/u/70657154?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
+            <sub>
+              <b>Renato Negrelly</b>
+              <b> cargo </>
+            </sub>
+          </a>
+        </td>
+    </tr>
+   </table>
