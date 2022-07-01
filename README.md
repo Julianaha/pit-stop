@@ -44,6 +44,7 @@ O site está hospedado no github pages: [PitStop](https://julianaha.github.io/pi
 
 ### Softwares & Ferramentas utilizadas neste projeto 📚 
 - [x] MySQL
+- [x] Excel
 - [x] HTML5 
 - [x] CSS3 
 - [x] Bootstrap 
@@ -54,9 +55,9 @@ O site está hospedado no github pages: [PitStop](https://julianaha.github.io/pi
 
 ### Habilidades Adquiridas 📝 
 - Criação de Query
+- Análise de dados estatísticos
 - Extração de informações relevantes para elaborar um dado estatístico 
 - Modelagem de Dados
-- Padrão MVC 
 - Utilização do Bootstrap 
 - Responsividade 
 - Sintaxe e Indentação de código
@@ -104,7 +105,7 @@ O site está hospedado no github pages: [PitStop](https://julianaha.github.io/pi
             <img src='https://avatars.githubusercontent.com/u/70657154?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
             <sub>
               <b>Renato Negrelly</b>
-              <b> cargo </>
+              <b>  </>
             </sub>
           </a>
         </td>
