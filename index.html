@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PitStop</title>
+  <link rel="icon" type="image/x-icon" href="./src/assets/img/bandeira.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./src/css/style.css">
@@ -13,182 +14,285 @@
 <body>
   <nav class="navbar navbar-expand-lg p-3">
     <div class="container-fluid">
-      <a class="navbar-brand nav-font" href="#">PitStop</a>
+      <a class="navbar-brand nav-font" href="./index.html">PitStop</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link nav-font" aria-current="page" href="#">Inicio</a>
-          <a class="nav-link nav-font" href="#">Gráficos</a>
-          <a class="nav-link nav-font" href="#">Contato</a>
+          <a class="nav-link nav-font" aria-current="page" href="#f1">início</a>
+          <a class="nav-link nav-font" href="#sobre">sobre</a>
+          <a class="nav-link nav-font" href="#graficos">gráficos</a>
+          <a class="nav-link nav-font" href="#contato">contato</a>
         </div>
       </div>
     </div>
   </nav>
-
-  <main>
+  <!-- Video carrossel -->
+  <div>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <video muted looping="true" autoplay="true" class="video-principal d-block w-100" height="400">
+          <video muted loop  autoplay fullscreen class="video-principal d-block w-100" height="400">
             <source src="./src/assets/img/video-formula1.mp4" type="video/mp4">
           </video>
         </div>
       </div>
     </div>
-    <section class="text-center p-4 m-3 mb-5">
-      <h1 class="title-font">Fórmula 1</h1>
-      <p class="text-center text-font">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
-        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
-        euismod magna.Quem num gosta di mé, boa gentis num é.
-        Paisis, filhis, espiritis santis.Manduma pindureta quium dia nois paga.Posuere libero varius. Nullam a nisl ut
-        ante blandit hendrerit. Aenean sit amet nisi.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo
-        pose. Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
-        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
-        euismod magna.Quem num gosta di mé, boa gentis num é.
-        Paisis, filhis, espiritis santis.Manduma pindureta quium dia nois paga.Posuere libero varius. Nullam a nisl ut
-        ante blandit hendrerit. Aenean sit amet nisi.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo
-        pose.
-      </p>
-    </section>
-    <div class="p-2 mt-5">
-      <h1 class="nav-font bg-subtitle p-3">Gráficos</h1>
-      <p>Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
-        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
-        euismod magna.Quem num gosta di mé, boa gentis num é.Mussum Ipsum, cacilds vidis litro abertis. A ordem dos
-        tratores não altera o pão
-        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.
-      </p>
-      <div class="row container text-center">
-        <div class="col-md-6">
-          <img class="img-grid" src="./assets/img/pilotos-top10.png">
-        </div>
-        <div class="col-md-6">
-          <img class="img-grid" src="./assets/img/pilotos-top10.png">
-        </div>
-        <div class="col-md-6">
-          <img class="img-grid" src="./assets/img/pilotos-top10.png">
-        </div>
-        <div class="col-md-6">
-          <img class="img-grid" src="./assets/img/pilotos-top10.png">
-        </div>
-        <div class="col-md-6">
-          <img class="img-grid" src="./assets/img/pilotos-top10.png">
-        </div>
-        <div class="col-md-6">
-          <img class="img-grid" src="./assets/img/pilotos-top10.png">
+
+    <!-- Contextualizacao sobre a formula1 -->
+    <div class="row container pt-5 mx-auto" id="f1">
+      <div class="col-md-8">
+        <h1 class="title-font">Fórmula 1</h1>
+        <p class="text-font lh-lg text-start">Fórmula 1 é a mais popular modalidade de automobilismo do mundo. É a
+          categoria mais avançada do esporte a motor. Equipes e pilotos da F1 têm uma enorme capacidade de engajamento
+          e, consequentemente, de geração de receitas adicionais pelas redes, bem como a relação com as marcas. Ter uma
+          equipe competitiva como a Red Bull, e trazer a Mercedes para o jogo e, agora em 2022, ver o renascimento
+          competitivo da Ferrari, são movimentos que atraem a atenção do público.
+          Disputas com marcas e pilotos reconhecidos por suas qualidades são mais um golaço da categoria.
+        </p>
+        <p class="fw-semibold fs-2 p-3 m-2 pt-5 font-destaque destaque">"Uma qualidade essencial da competição é pensar
+          e repensar regras que possam aumentar a competitividade e a qualidade das corridas."
+        </p>
+      </div>
+      <div class="col-md-4" >
+        <img src="./src/assets/img/celular-pitstop.png" class="img-info">
+      </div>
+    </div>
+    <!-- Apresentando o produto PitStop -->
+    <div class="row bg-subtitle text-center pt-5 mx-auto">
+      <div class="col-md-4" id="sobre">
+        <img src="./src/assets/img/celular-pitstop2.png" class="img-info">
+      </div>
+      <div class="col-md-6 p-3">
+        <h2 class="title-font text-start display-4">
+          Venha
+          <br>
+          com a gente
+          <br>
+          fazer seu PitStop <img src="./src/assets/img/bandeira.png" class="p-3">
+        </h2>
+        <p class="font-text text-start lh-base fs-5">Agora ficou fácil acompanhar a mais popular modalidade de
+          automobilismo do mundo. Nós separamos as novidades dos circuitos e tudo sobre a sua equipe favorita para você
+          aproveitar o melhor da temporada.
+          Vamos te ajudar a ficar por dentro de tudo que acontece!
+        </p>
+        <h3 class="nav-font display-5 pt-4">Somos o seu game fantasy</h3>
+        <ul class="list-inline pt-5 justify-content-around">
+          <li class="list-inline-item p-2 font-text"><img width="50" src="./src/assets/img/questao.png"><br>Para tirar<br> suas dúvidas</li>
+          <li class="list-inline-item p-2 font-text"><img width="50" src="./src/assets/img/rating.png"><br>Acompanhar <br>tendências de pontuação</li>
+          <li class="list-inline-item p-2 font-text"><img width="50" src="./src/assets/img/podio.png"><br>Montar seu pódio<br> de cada circuito</li>
+          <li class="list-inline-item p-2 font-text"><img width="50" src="./src/assets/img/certificado.png"><br>Ganhar o grande prêmio<br> de constructor da temporada</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Grafico -->
+    <div class="mt-5 bg-grafico">
+      <h1 class="nav-font bg-subtitle p-3" id="graficos">Gráficos</h1>
+      <div class="container" >
+        <p class="text-font fs-4 p-3">As possibilidades para se informar e divertir são muitas! Na nossa plataforma você
+          encontra demonstrativos de dados
+          para auxiliar na compreensão do universo automobilistico. Confira aqui um
+          pouco dos nossos gráficos
+          mas nao se esqueça de instalar o nosso aplicativo.
+        </p>
+        <div class="row pt-5">
+          <div class="col-md-6 text-center">
+            <h4 class="text-font fw-bold">
+              TOP 10 Pilotos com o maior número de voltas
+              <br>
+              mais rápidas da última década
+            </h4>
+            <img src="./src/assets/model/pilotos-top10.png" class="img-fluid rounded pt-1">
+            <p class="pt-4 text-font fs-6">
+              A volta mais rápida de um piloto durante a temporada passou a ser um bônus de
+              pontuação para os pilotos que terminarem a corrida entre os 10 primeiros colocados.
+              Um ponto pode custar a liderança ou até mesmo um campeonato.
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <h4 class="text-font fw-bold">
+              Pilotos que mais apareceram entre os TOP 10
+              <br>
+              nas duas últimas décadas
+            </h4>
+            <img src="./src/assets/model/voltas-rapidas.png" class="img-fluid rounded">
+            <p class="pt-5 text-font fs-6">
+              Várias pessoas possuem o seu TOP10 maiores pilotos, mas se considerarmos as duas últimas décadas,
+              alguns nomes se destacam por estarem sempre pontuando. Pelo gráfico é possível avaliar que estar
+              sempre pontuando nem sempre é indicativo de pódio.
+            </p>
+          </div>
+          <div class="row pt-5">
+            <div class="col-md-6 text-center">
+              <h4 class="text-font fw-bold">TOP 5 pilotos com maior presença no GRID
+                <br>
+                considerando as 5 primeiras posições
+              </h4>
+              <img src="./src/assets/model/pilotos-grid.png" class="img-fluid rounded pt-3">
+              <p class="pt-4 text-font fs-6">Os pilotos que mais pontuam, também aparecem no TOP 5 do GRID,
+                a presença contínua no grid 5 pode demonstrar estabilidade e bom desempenho tanto do piloto,
+                num panorama geral, quanto da equipe.
+              </p>
+            </div>
+            <div class="col-md-6 text-center">
+              <h4 class="text-font fw-bold">A relação entre as melhores pontuações
+                <br>
+                e o tempo de PitStop
+              </h4>
+              <img src="./src/assets/model/Pitstop_x_Pontos.jpeg" class="img-fluid rounded pt-4">
+              <p class="pt-3 text-font fs-6">A troca do jogo de pneus pode ser decisiva para o ponto extra da volta mais
+                rápida.</p>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-md-6 text-center pt-3">
+              <h4 class="text-font fw-bold">TOP 5 construtores
+                <br>
+                que mais pontuaram na última década
+              </h4>
+              <img src="./src/assets/model/maiores-pontuacoes.png" class="img-fluid rounded pt-2">
+            </div>
+            <div class="col-md-6 text-center pt-3">
+              <h4 class="text-font fw-bold">TOP 5 contrutores
+                <br>
+                que menos pontuaram na ultima década
+              </h4>
+              <img src="./src/assets/model/pontuacao-menores.png" class="img-fluid rounded pt-2 mx-auto">
+            </div>
+          </div>
+          <div class="row pt-5 text-center pt-3">
+            <div class="col-md-6">
+              <h4 class="text-font fw-bold">TOP 5 construtores
+                <br>
+                que mais pontuaram na história
+              </h4>
+              <img src="./src/assets/model/maior-pontuacao-historia.png" class="img-fluid rounded pt-2 mx-auto">
+            </div>
+            <div class="col-md-6">
+              <h4 class="text-font fw-bold">TOP 5 construtores
+                <br>
+                que menos pontuaram na história
+              </h4>
+              <img src="./src/assets/model/pontuacao-historia.png" class="img-fluid rounded pt-2 mx-auto">
+            </div>
+          </div>
+          <div class="mx-auto text-center pt-5">
+            <p class="fs-6 text-font">Alguns construtores possuem um histórico de pontuação que não se reproduziu na última
+              década. O somatório de pontuação ao longo da história do esporte apresenta a construtora Ferrari liderando
+              o ranking, porém avaliando os últimos 10 anos, a construtora Mercedes demonstra uma ascensão no esporte.
+            </p>
+          </div>
+          <div class="row pt-5 text-center">
+            <div class="col">
+              <h4 class="fw-bold text-font">Motores mais vitoriosos por circuito</h4>
+              <img src="./src/assets/model/motores-vitoriosos.png" class="img-fluid rounded pt-2 mx-auto">
+              <p class="pt-3 fs-5 text-font">
+                A Red Bull se apresenta como uma equipe com conceitos mais ousados e que demonstra bons resultados
+                quando
+                comparada às favoritas históricas do esporte. Uma equipe com um princípio maior de desenvolvimento
+                demonstra
+                um desempenho mais robusto, independente do circuito.
+              </p>
+            </div>
+          </div>
+          <div class="row pt-5 text-center">
+            <div class="col">
+              <h4 class="fw-bold text-font">Desempenho na última década das construtoras que mais pontuaram na F1</h4>
+              <img src="./src/assets/model/desempenho-decada.png" class="img-fluid rounded pt-2 mx-auto">
+              <p class="pt-3 fs-5 text-font">A relação entre pilotos e construtores é muito significativa, como pode ser observado em
+                2014, a ascensão da Mercedes foi diretamente relacionada à entrada de Lewis Hamilton, piloto que
+                demonstra consistência no TOP 5 no GRID, bem como a Red Bull que liderava os campeonatos enquanto
+                Sebastian Vettel fazia parte da equipe..
+                Acompanhar essa variação é importante para compreender a importância do desempenho de cada piloto, volta
+                mais rápida, contagem de pontos, desde o Grid até o pódio por circuito.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="p-2">
-      <h1 class="nav-font bg-subtitle p-3">Contato</h1>
-      <p>Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão
-        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.Copo furadis é disculpa de bebadis, arcu quam
-        euismod magna.Quem num gosta di mé, boa gentis num é.Mussum Ipsum, cacilds vidis litro abertis. A ordem dos
-        tratores não altera o pão
-        duris.Delegadis gente finis, bibendum egestas augue arcu ut est.
-      </p>
-      <div class="row container text-center">
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./assets/img/flavio.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+  </div>
+   <!-- contato -->
+  <div class="mt-5">
+    <h1 class="nav-font bg-subtitle p-3" id="contato">Contato</h1>
+    <div class="container">
+      <h2 class="text-center p-5 title-font destaque">Conheça nossa equipe de desenvolvedores </h2>
+      <div class="row">
+        <div class="col col-md-4 p-2">
+          <div class="mx-auto" style="width: 18rem;">
+            <img src="./src/assets/img/beatriz1.jpeg" class="img-fluid rounded-circle p-3" alt="imagem-beatriz">
+            <div class="text-center">
+              <h5 class="card-title text-font">Beatriz Teixeira</h5>
+              <p class="card-text text-font">Colaboradora</p>
+              <a href="https://github.com/biateisi"><img src="./src/assets/img/github1.png" class="img-fluid icon-perfil opcao"></a>
+              <a href="https://www.linkedin.com/in/beatrizteisi/"><img src="./src/assets/img/linkedin2.png" class="img-fluid icon-perfil opcao"></a>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./assets/img/flavio.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+        <div class="col col-md-4 p-2">
+          <div class="mx-auto" style="width: 18rem;">
+            <img src="./src/assets/img/flavio1.jpeg" class="img-fluid rounded-circle p-3" alt="imagem-flavio">
+            <div class="text-center">
+              <h5 class="card-title text-font">Flávio Christovam</h5>
+              <p class="card-text text-font">Co-facilitador</p>
+              <a href="https://github.com/fchristovam"><img src="./src/assets/img/github1.png" class="img-fluid icon-perfil opcao"></a>
+              <a href="https://www.linkedin.com/in/flavio-christovam/"><img src="./src/assets/img/linkedin2.png" class="img-fluid icon-perfil opcao"></a>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./assets/img/flavio.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-         </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./assets/img/flavio.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                    <img src="./img/github.svg" class="w-30">
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+        <div class="col col-md-4 p-2">
+          <div class="mx-auto" style="width: 18rem;">
+            <img src="./src/assets/img/juliana.jpeg" class="img-fluid rounded-circle p-3" alt="imagem-juliana">
+            <div class="text-center">
+              <h5 class="card-title text-font">Juliana Souza</h5>
+              <p class="card-text text-font">Gestora do conhecimento</p>
+              <a href="https://github.com/Julianaha"><img src="./src/assets/img/github1.png" class="img-fluid icon-perfil opcao"></a>
+              <a href="https://www.linkedin.com/in/julianaha/"><img src="./src/assets/img/linkedin2.png" class="img-fluid icon-perfil opcao"></a>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./assets/img/flavio.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                    </svg>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+        <div class="col col-md-4 p-2">
+          <div class="mx-auto" style="width: 18rem;">
+            <img src="./src/assets/img/alice.jpeg" class="img-fluid rounded-circle p-3" alt="imagem-alice">
+            <div class="text-center">
+              <h5 class="card-title text-font">Alice Branquinho</h5>
+              <p class="card-text text-font">Colaboradora</p>
+              <a href="https://github.com/alicebranq"><img src="./src/assets/img/github1.png" class="img-fluid icon-perfil opcao"></a>
+              <a href="https://www.linkedin.com/in/alicebranquinho/"><img src="./src/assets/img/linkedin2.png" class="img-fluid icon-perfil opcao"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-4 p-2">
+          <div class="mx-auto" style="width: 18rem;">
+            <img src="./src/assets/img/renato.jpeg" class="img-fluid rounded-circle p-3" alt="imagem-renato">
+            <div class="text-center">
+              <h5 class="card-title text-font">Renato Negrelly</h5>
+              <p class="card-text text-font">Gestor de gente</p>
+              <a href="https://github.com/rnegrelly"><img src="./src/assets/img/github1.png" class="img-fluid icon-perfil opcao"></a>
+              <a href="https://www.linkedin.com/in/renato-negrelly/"><img src="./src/assets/img/linkedin2.png" class="img-fluid icon-perfil opcao"></a>
             </div>
           </div>
         </div>
       </div>
-  </main>
-
+    </div>
+    <!-- rodape -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item opcao"><a href="#f1" class="nav-link px-2 text-muted font-text">Início</a></li>
+          <li class="nav-item opcao"><a href="#sobre" class="nav-link px-2 text-muted font-text">Sobre</a></li>
+          <li class="nav-item opcao"><a href="#grafico" class="nav-link px-2 text-muted font-text">Gráficos</a></li>
+          <li class="nav-item opcao"><a href="#contato" class="nav-link px-2 text-muted font-text">Contato</a></li>
+        </ul>
+        <p class="text-center text-muted font-text">&copy; 2022 Resilia - Grupo 2</p>
+      </footer>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous">
+  </script>
 </body>
-
 </html>
